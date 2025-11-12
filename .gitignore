@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+env.bak/
+venv.bak/
+
+# Virtualenvs created inside the project tree (common)
+**/lib/python*/site-packages/
+**/lib/python*/dist-packages/
+**/bin/
+**/pyvenv.cfg
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+
+# Test and coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# mypy / type checkers
+.mypy_cache/
+.pyright/
+
+# Packaging lock files (optional)
+Pipfile.lock
+poetry.lock
+
+# Python env/version managers
+.python-version
+
+# Temporary / swap
+*~
+*.swp
+
+# Secrets and local config
+.env.local
+.env.*.local
+.secrets/
+
+# Ignore compiled C extensions and build artifacts
+build/
+dist/
+*.egg-info/
+
+# Misc
+# Ignore site-packages that may be committed under project (e.g. lib/)
+lib/
+lib64
+include/
+pyvenv.cfg
