@@ -166,11 +166,11 @@ class RequestHandler:
                 message = BroadcastMessage.from_dict(message)
                 self.broadcastMessage(client, message)
 
-    def broadcastMessage(self, client: Client, message: Message):
+    def broadcastMessage(self, sender_client: Client, message: Message):
         for client in self.server.clients.values():
             self.send_to_client(client, BroadcastMessage.from_dict({
-                "sender_id": client.id,
-                "sender_name": client.name,
+                "sender_id": sender_client.id,
+                "sender_name": sender_client.name,
                 "content": message.content
             }))
 
